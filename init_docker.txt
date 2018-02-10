@@ -1,0 +1,13 @@
+
+docker search SEARCH_NAME
+
+docker pull IMAGE_NAME
+
+docker run -d IMAGE_NAME
+
+docker ps
+# get CONTAINER_ID
+
+docker logs CONTAINER_ID
+
+docker exec -it CONTAINER_ID bash
